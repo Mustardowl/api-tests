@@ -73,3 +73,11 @@ git status
 git add
 git add .
 git branch
+git add .
+git commit -m "manifest"
+git push
+git push --set-upstream https://github.com/Mustardowl/api-tests main
+git push
+git clone https://github.com/Mustardowl/api-tests
+git fetch https://github.com/Mustardowl/api-tests
+git status
