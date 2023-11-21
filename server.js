@@ -6,7 +6,7 @@ app.get("/", (req,res)=>{
 });
 
 app.get("/arianne", (req,res)=>{
-    res.send("Hello Arianne!");
+    res.send("arianne");
 });
 
 app.listen(3000,()=>{
