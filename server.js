@@ -1,4 +1,5 @@
 const express =require('express');
+const port = 3000;
 const app = express();
 
 app.get("/", (req,res)=>{
@@ -6,9 +7,9 @@ app.get("/", (req,res)=>{
 });
 
 app.get("/arianne", (req,res)=>{
-    res.send("arianne");
+    res.send("Hello arianne");
 });
 
-app.listen(3000,()=>{
-    console.log("Listening");
-});
+app.listen(port, () => console.log("Listening"));
+
+module.exports = app;

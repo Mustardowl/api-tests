@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "mocha --exit"
+    "hello": "node helloworld.js"
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
@@ -14,4 +16,5 @@
     "mocha": "^10.2.0",
     "node-fetch2": "^1.6.3"
   }
+  "type": "module"
 }
