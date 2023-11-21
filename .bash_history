@@ -32,3 +32,9 @@ git commit -m "manifest"
 git config user.name "Mustardowl"
 git commit -m "manifest"
 git add .
+git add .
+git commit -m "manifest"
+git push -u origin main
+git push
+git remote add origin https://github.com/Mustardowl/api-tests.git
+git branch -M main
