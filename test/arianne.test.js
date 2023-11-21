@@ -1,5 +1,7 @@
-test('Arianne test', async () => {
-    const response = await fetch('http://localhost:3000/arianne');
-    const name = await response.text();
-    expect(name).toBe("arianne");
-  });
+import sayHello from "../utils/helloworld.mjs";
+import assert from "assert";
+
+it ("Tests Returned Name", () => {
+    const hello = sayHello();
+    assert.equal(hello, "Arianne");
+});
