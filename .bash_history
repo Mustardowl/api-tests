@@ -38,3 +38,38 @@ git push -u origin main
 git push
 git remote add origin https://github.com/Mustardowl/api-tests.git
 git branch -M main
+git add .
+git commit -m "manifest"
+git push -u origin main
+git push -u origin main
+git push -u origin main
+git push
+ git push --set-upstream origin main
+git remote add origin https://github.com/Mustardowl/api-tests.git
+ssh keygen
+ssh key-gen
+ssh-keygen
+ cat ~/.ssh/id_rsa.pub
+git remote add origin https://github.com/Mustardowl/api-tests.git
+git push
+git push -u origin main
+git config --global user.name "Mustardowl"
+git push -u origin main
+git remote add origin https://github.com/Mustardowl/api-tests.git
+git push
+ssh keygen
+ssh-keygen
+ssh-keygen
+ cat ~/.ssh/id_rsa.pub
+git config --global user.name “[fMustardowl"
+
+git config --global user.name “Mustardowl"
+
+
+git config --global user.name � "Mustardowl"
+git config --global user.email "dil23001@byui.edu"
+git statu
+git status
+git add
+git add .
+git branch
